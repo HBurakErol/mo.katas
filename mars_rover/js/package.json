@@ -2,9 +2,10 @@
   "name": "mars-rover-kata",
   "version": "1.0.0",
   "description": "## Your Task",
-  "main": "index.js",
+  "main": "api.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start" : "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,9 @@
   "homepage": "https://github.com/mercadona/mo.katas#readme",
   "devDependencies": {
     "jest": "^24.5.0"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
   }
 }
